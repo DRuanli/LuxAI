@@ -3,6 +3,7 @@ from collections import defaultdict, deque
 from typing import DefaultDict, Dict, List, Tuple, Set
 from datetime import datetime
 import builtins as __builtin__
+from .game_position import Position
 
 import numpy as np
 
