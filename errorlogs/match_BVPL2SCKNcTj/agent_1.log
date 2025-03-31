@@ -1,0 +1,9 @@
+=== Agent Install Log ===
+=== Agent Compile Log ===
+=== Agent Error Log ===
+Traceback (most recent call last):
+  File "/Applications/AI/Agent/LuxAI/main.py", line 3, in <module>
+    from agent import agent
+  File "/Applications/AI/Agent/LuxAI/agent.py", line 7, in <module>
+    from lux.game import Game, Missions, Observation
+ImportError: cannot import name 'Game' from 'lux.game' (/Applications/AI/Agent/LuxAI/lux/game.py)
